@@ -1,0 +1,15 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title></ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content padding>
+ <h1> High Score </h1>
+<ion-list>
+         <ion-item *ngFor="let person of people">
+                   <h1>   {{person.Name}},{{person.Min}}Min</h1>
+         </ion-item>
+     </ion-list>
+</ion-content>

@@ -1,0 +1,11 @@
+page-game-page {
+.background{
+         background-image: url(../assets/forest.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+    .scroll-content {
+        padding-bottom: 0px!important;
+    }
+}

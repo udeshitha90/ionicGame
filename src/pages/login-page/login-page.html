@@ -1,0 +1,20 @@
+
+<ion-content class="background">
+  <div style="padding-top: 200px;width: 100%">
+    <ion-list>
+
+  <ion-item>
+    <ion-input type="text" placeholder="Username" [(ngModel)]="user.Name"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input type="password" placeholder="Password" [(ngModel)]="user.Password"></ion-input>
+  </ion-item>
+
+</ion-list>
+  </div>
+<div style="padding-top: 10px;">
+<button ion-button  (click)="login(user)">login</button>
+</div>
+ <button class="bottom" ion-button clear full color="light" (click)="SignUp()">Don't have an account ? Sign up</button>
+</ion-content>
